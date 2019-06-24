@@ -62,7 +62,7 @@ To install Appsody on your system follow these steps:
 1) Download the latest **RPM install package** from the [Appsody releases page](https://github.com/appsody/appsody/releases). The file is named `appsody-v.r.m_1.x86_64.rpm`, where `v.r.m` indicates the release tag.
 2) Assuming, you downloaded the package into `~/Downloads`, run: 
 ```
-sudo yum install -f ~/Downloads/appsody-v.r.m_1.x86_64.rpm
+sudo yum install ~/Downloads/appsody-v.r.m_1.x86_64.rpm
 ```
 Make sure you specify the path to the package file.
 
