@@ -46,8 +46,7 @@ The **pre-requisites** to successfully run `appsody deploy` are:
 3)  If you intend to push the Docker image containing your application to Docker Hub, your target cluster must be configured to be able to pull images from Docker Hub.
 
 ### Deploying your application to a locally installed Kubernetes cluster
-If you have installed a Kubernetes cluster on your development workstation, and want to use your local Docker image cache - rather than pushing the image to Docker Hub - you should follow these steps to set up your Kubernetes cluster:
-<Chris stuff goes here>
+If you have installed a Kubernetes cluster on your development workstation, and want to use your local Docker image cache - rather than pushing the image to Docker Hub - you should make sure you have set up your Kubernetes cluster to consume images from the local Docker cache.
 
 You can then deploy your Appsody project locally by running:
 ```
